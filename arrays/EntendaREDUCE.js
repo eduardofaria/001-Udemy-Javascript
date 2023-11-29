@@ -1,10 +1,10 @@
-/* REDUCE é: Fazer alguma coisa com um elemento em seguida com o próximo, acumulando o que fez com o anterior, continuando nessa ordem, do início até o fim da array.
+/* REDUCE é: Fazer alguma coisa com um elemento, em seguida com o próximo, acumulando o que fez com o anterior, continuando nessa ordem, do início até o fim da array.
     Então, uma array [A, B, C , D] seria fazer algo com A, depois somar o feito com A, com B, depois esse A com B, com C, depois (A, B e C) com D.
     Exemplo:
         arr.reduce(A, B);
     Onde A = O QUE FAZER com CADA ELEMENTO (ex: uma function)
     Essa função em A, recebe dois parâmetros do reduce:
-    PRIMEIRO PARÂMETRO na function: O resultado acumulado até o momento.
+    PRIMEIRO PARÂMETRO na function: O resultado acumulado até o momento (o RETURN da função).
     SEGUNDO PARÂMETRO, na function: O item atual do momento.
 
     Onde B = ONDE COMEÇAR (É opcional, MAS se usado, define também o tipo de saída.
